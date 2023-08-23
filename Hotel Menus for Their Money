@@ -1,0 +1,30 @@
+Juice=10
+Snakes=30
+Meals=80
+Man=int(input("Enter the amount you have: "))
+if Man>=120:
+  print("You can buy all foods")
+elif Man<120 and Man>=110:
+  print("You can buy 'meals and snakes' or 'meals and juice' or 'snakes and juice' or 'meals' or 'juice' or 'snakes'")
+elif Man<110 and Man>=100:
+  print("You can buy 'meals and juice' or 'snakes and juice' or 'meals' or 'juice' or 'snakes'")
+elif Man<100 and Man>=90:
+  print("You can buy 'meals and juice' or 'snakes and juice' or 'meals' or 'juice' or 'snakes'")
+elif Man<90 and Man>=80:
+  print("You can buy 'snakes and juice' or 'meals' or 'juice' or 'snakes'")
+elif Man<80 and Man>=70:
+  print("You can buy 'snakes and juice' or 'juice' or 'snakes'")
+elif Man<70 and Man>=60:
+  print("You can buy 'snakes and juice' or 'juice' or 'snakes'")
+elif Man<60 and Man>=50:
+  print("You can buy 'snakes and juice' or 'juice' or 'snakes'")
+elif Man<50 and Man>=40:
+  print("You can buy 'snakes and juice' or 'juice' or 'snakes'")
+elif Man<40 and Man>=30:
+  print("You can buy 'juice' or 'snakes'")
+elif Man<30 and Man>=20:
+  print("You can buy 'juice'")
+elif Man<20 and Man>=10:
+  print("You can buy 'juice'")
+else:
+  print("You can't buy any food")
